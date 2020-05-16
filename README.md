@@ -1,4 +1,4 @@
-# Hackathon-Hack-the-Chain-
+# Hackathon-Hack-the-Chain
 A hackathon project hosted by Major League Hacking (MLH) May 16-17
 
 
