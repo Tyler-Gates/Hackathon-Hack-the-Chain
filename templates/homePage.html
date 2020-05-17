@@ -1,0 +1,16 @@
+﻿{% extends "home.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1>Hackcoin</h1>
+    <p class="lead">Hackcoin is an Ethereum ERC-20 token used as a prize to participants and winners alike to purchase Major League Hacking swag!!</p>
+    <p><a href="/Habout" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+</div>
+{% for message in get_flashed_messages() %}
+{{ message }}
+{% endfor %}
+
+
+
+{% endblock %}
